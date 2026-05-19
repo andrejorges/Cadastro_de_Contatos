@@ -1,0 +1,100 @@
+body{
+    margin: 50px;
+    padding: 100px;
+    background-color:antiquewhite;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header{
+    color: brown;
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: bold;
+    background-color: rgb(255, 201, 129);
+    border-radius: 5rem 5rem 0rem 0rem;
+    border: 1px solid brown;
+}
+
+main{
+    display: flex;
+    background-color: rgb(255, 201, 129);
+    border-radius: 0rem 0rem 5rem 5rem;
+    padding: 40px;
+    justify-content: space-around;
+    color: brown;
+}
+
+.form-section{
+    border-radius: 2rem 0rem 0rem 2rem;
+}
+
+.list-section{
+    border-radius: 0rem 2rem 2rem 0rem;
+}
+
+.form-section, .list-section{
+    display: flex;
+    width: 50%;
+    background-color: rgb(250, 242, 230);
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; /* Adicione esta linha! */
+    border: 1px solid brown;
+}
+
+label{
+    display: block;
+    margin: 10px 0 5p;
+}
+
+div{
+    background-color: rgb(255, 201, 129);
+    border-radius: 0rem 0rem 5rem 5rem;
+    border: 1px solid brown;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: brown;
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 10px;
+    background-color: brown;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#listaContatos li{
+    padding: 10px;
+    background-color: rgb(255, 201, 129);
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 10px;
+}
+
+h2{
+    border: 1px solid brown;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 0px; 
+}
+
+input{
+    border: 1px solid brown;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button{
+    margin-top: 10px;
+}
